@@ -28,8 +28,6 @@
 		8A1CC37F1D7AB10D00562709 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CC37B1D7AB10D00562709 /* DrawView.swift */; };
 		8A1CC3811D7AB10D00562709 /* SlimMPSCNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CC37D1D7AB10D00562709 /* SlimMPSCNN.swift */; };
 		8A1CC3891D7ABCE400562709 /* MNISTDeepCNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CC3881D7ABCE400562709 /* MNISTDeepCNN.swift */; };
-		8A1CC38F1D7AC22E00562709 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1CC38E1D7AC22E00562709 /* Stickers.xcassets */; };
-		8A1CC3931D7AC22E00562709 /* SamplerStickerPack.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A1CC38C1D7AC22E00562709 /* SamplerStickerPack.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8A1CC3991D7AC43C00562709 /* StickerPackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CC3981D7AC43C00562709 /* StickerPackViewController.swift */; };
 		8A1CC39B1D7AC44A00562709 /* StickerPack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1CC39A1D7AC44A00562709 /* StickerPack.storyboard */; };
 		8A3CD9B01DA539F000039F36 /* bias_conv1.dat in Resources */ = {isa = PBXBuildFile; fileRef = 8A3CD9A81DA539F000039F36 /* bias_conv1.dat */; };
@@ -263,8 +261,6 @@
 		8AB4305B1D7A6B4900A3BD98 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4305A1D7A6B4900A3BD98 /* RootViewController.swift */; };
 		8AB430601D7A6B4900A3BD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB4305F1D7A6B4900A3BD98 /* Assets.xcassets */; };
 		8AB430631D7A6B4900A3BD98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB430611D7A6B4900A3BD98 /* LaunchScreen.storyboard */; };
-		8AB4306E1D7A6B4A00A3BD98 /* iOS_10_SamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4306D1D7A6B4A00A3BD98 /* iOS_10_SamplerTests.swift */; };
-		8AB430791D7A6B4A00A3BD98 /* iOS_10_SamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB430781D7A6B4A00A3BD98 /* iOS_10_SamplerUITests.swift */; };
 		8AB430871D7A6DA700A3BD98 /* RootViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB430861D7A6DA700A3BD98 /* RootViewCell.swift */; };
 		8AB430891D7A6DF300A3BD98 /* SampleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB430881D7A6DF300A3BD98 /* SampleDataSource.swift */; };
 		8C3A5F501D7EF7BE00B7A480 /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A5F4C1D7EF7BE00B7A480 /* Message+CoreDataClass.swift */; };
@@ -274,30 +270,6 @@
 		8C67369F1D7EFE7000BAAE02 /* iOS10Sampler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C67369D1D7EFE7000BAAE02 /* iOS10Sampler.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8A1CC3911D7AC22E00562709 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AB4304D1D7A6B4900A3BD98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A1CC38B1D7AC22E00562709;
-			remoteInfo = SamplerStickerPack;
-		};
-		8AB4306A1D7A6B4A00A3BD98 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AB4304D1D7A6B4900A3BD98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8AB430541D7A6B4900A3BD98;
-			remoteInfo = "iOS-10-Sampler";
-		};
-		8AB430751D7A6B4A00A3BD98 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AB4304D1D7A6B4900A3BD98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8AB430541D7A6B4900A3BD98;
-			remoteInfo = "iOS-10-Sampler";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		8A1CC3971D7AC22E00562709 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -305,7 +277,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8A1CC3931D7AC22E00562709 /* SamplerStickerPack.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +305,6 @@
 		8A1CC37D1D7AB10D00562709 /* SlimMPSCNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlimMPSCNN.swift; sourceTree = "<group>"; };
 		8A1CC3851D7AB15B00562709 /* iOS10Sampler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS10Sampler-Bridging-Header.h"; sourceTree = "<group>"; };
 		8A1CC3881D7ABCE400562709 /* MNISTDeepCNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNISTDeepCNN.swift; sourceTree = "<group>"; };
-		8A1CC38C1D7AC22E00562709 /* SamplerStickerPack.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SamplerStickerPack.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1CC38E1D7AC22E00562709 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		8A1CC3901D7AC22E00562709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A1CC3981D7AC43C00562709 /* StickerPackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPackViewController.swift; sourceTree = "<group>"; };
@@ -574,10 +544,8 @@
 		8AB4305F1D7A6B4900A3BD98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AB430621D7A6B4900A3BD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AB430641D7A6B4900A3BD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8AB430691D7A6B4A00A3BD98 /* iOS-10-SamplerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-10-SamplerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB4306D1D7A6B4A00A3BD98 /* iOS_10_SamplerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_10_SamplerTests.swift; sourceTree = "<group>"; };
 		8AB4306F1D7A6B4A00A3BD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8AB430741D7A6B4A00A3BD98 /* iOS-10-SamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-10-SamplerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB430781D7A6B4A00A3BD98 /* iOS_10_SamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_10_SamplerUITests.swift; sourceTree = "<group>"; };
 		8AB4307A1D7A6B4A00A3BD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AB430861D7A6DA700A3BD98 /* RootViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewCell.swift; sourceTree = "<group>"; };
@@ -591,20 +559,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8AB430521D7A6B4900A3BD98 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AB430661D7A6B4A00A3BD98 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AB430711D7A6B4A00A3BD98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1105,9 +1059,6 @@
 			isa = PBXGroup;
 			children = (
 				8AB430551D7A6B4900A3BD98 /* iOS-10-Sampler.app */,
-				8AB430691D7A6B4A00A3BD98 /* iOS-10-SamplerTests.xctest */,
-				8AB430741D7A6B4A00A3BD98 /* iOS-10-SamplerUITests.xctest */,
-				8A1CC38C1D7AC22E00562709 /* SamplerStickerPack.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1186,21 +1137,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A1CC38B1D7AC22E00562709 /* SamplerStickerPack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A1CC3941D7AC22E00562709 /* Build configuration list for PBXNativeTarget "SamplerStickerPack" */;
-			buildPhases = (
-				8A1CC38A1D7AC22E00562709 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SamplerStickerPack;
-			productName = SamplerStickerPack;
-			productReference = 8A1CC38C1D7AC22E00562709 /* SamplerStickerPack.appex */;
-			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
-		};
 		8AB430541D7A6B4900A3BD98 /* iOS-10-Sampler */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AB4307D1D7A6B4A00A3BD98 /* Build configuration list for PBXNativeTarget "iOS-10-Sampler" */;
@@ -1213,48 +1149,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				8A1CC3921D7AC22E00562709 /* PBXTargetDependency */,
 			);
 			name = "iOS-10-Sampler";
 			productName = "iOS-10-Sampler";
 			productReference = 8AB430551D7A6B4900A3BD98 /* iOS-10-Sampler.app */;
 			productType = "com.apple.product-type.application";
-		};
-		8AB430681D7A6B4A00A3BD98 /* iOS-10-SamplerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8AB430801D7A6B4A00A3BD98 /* Build configuration list for PBXNativeTarget "iOS-10-SamplerTests" */;
-			buildPhases = (
-				8AB430651D7A6B4A00A3BD98 /* Sources */,
-				8AB430661D7A6B4A00A3BD98 /* Frameworks */,
-				8AB430671D7A6B4A00A3BD98 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AB4306B1D7A6B4A00A3BD98 /* PBXTargetDependency */,
-			);
-			name = "iOS-10-SamplerTests";
-			productName = "iOS-10-SamplerTests";
-			productReference = 8AB430691D7A6B4A00A3BD98 /* iOS-10-SamplerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8AB430731D7A6B4A00A3BD98 /* iOS-10-SamplerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8AB430831D7A6B4A00A3BD98 /* Build configuration list for PBXNativeTarget "iOS-10-SamplerUITests" */;
-			buildPhases = (
-				8AB430701D7A6B4A00A3BD98 /* Sources */,
-				8AB430711D7A6B4A00A3BD98 /* Frameworks */,
-				8AB430721D7A6B4A00A3BD98 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AB430761D7A6B4A00A3BD98 /* PBXTargetDependency */,
-			);
-			name = "iOS-10-SamplerUITests";
-			productName = "iOS-10-SamplerUITests";
-			productReference = 8AB430741D7A6B4A00A3BD98 /* iOS-10-SamplerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -1266,27 +1165,10 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Shuichi Tsutsumi";
 				TargetAttributes = {
-					8A1CC38B1D7AC22E00562709 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 9Z86A4AWDE;
-						ProvisioningStyle = Automatic;
-					};
 					8AB430541D7A6B4900A3BD98 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 9Z86A4AWDE;
 						ProvisioningStyle = Automatic;
-					};
-					8AB430681D7A6B4A00A3BD98 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 9Z86A4AWDE;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 8AB430541D7A6B4900A3BD98;
-					};
-					8AB430731D7A6B4A00A3BD98 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 9Z86A4AWDE;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 8AB430541D7A6B4900A3BD98;
 					};
 				};
 			};
@@ -1304,22 +1186,11 @@
 			projectRoot = "";
 			targets = (
 				8AB430541D7A6B4900A3BD98 /* iOS-10-Sampler */,
-				8AB430681D7A6B4A00A3BD98 /* iOS-10-SamplerTests */,
-				8AB430731D7A6B4A00A3BD98 /* iOS-10-SamplerUITests */,
-				8A1CC38B1D7AC22E00562709 /* SamplerStickerPack */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8A1CC38A1D7AC22E00562709 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A1CC38F1D7AC22E00562709 /* Stickers.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8AB430531D7A6B4900A3BD98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1549,20 +1420,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AB430671D7A6B4A00A3BD98 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AB430721D7A6B4A00A3BD98 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1612,41 +1469,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AB430651D7A6B4A00A3BD98 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AB4306E1D7A6B4A00A3BD98 /* iOS_10_SamplerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AB430701D7A6B4A00A3BD98 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AB430791D7A6B4A00A3BD98 /* iOS_10_SamplerUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8A1CC3921D7AC22E00562709 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A1CC38B1D7AC22E00562709 /* SamplerStickerPack */;
-			targetProxy = 8A1CC3911D7AC22E00562709 /* PBXContainerItemProxy */;
-		};
-		8AB4306B1D7A6B4A00A3BD98 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8AB430541D7A6B4900A3BD98 /* iOS-10-Sampler */;
-			targetProxy = 8AB4306A1D7A6B4A00A3BD98 /* PBXContainerItemProxy */;
-		};
-		8AB430761D7A6B4A00A3BD98 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8AB430541D7A6B4900A3BD98 /* iOS-10-Sampler */;
-			targetProxy = 8AB430751D7A6B4A00A3BD98 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8A1A04CE1D7A742A0040F613 /* Main.storyboard */ = {
@@ -1668,30 +1491,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8A1CC3951D7AC22E00562709 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
-				INFOPLIST_FILE = SamplerStickerPack/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-Sampler.SamplerStickerPack";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8A1CC3961D7AC22E00562709 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
-				INFOPLIST_FILE = SamplerStickerPack/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-Sampler.SamplerStickerPack";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		8AB4307B1D7A6B4A00A3BD98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1813,76 +1612,9 @@
 			};
 			name = Release;
 		};
-		8AB430811D7A6B4A00A3BD98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
-				INFOPLIST_FILE = "iOS-10-SamplerTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-SamplerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-10-Sampler.app/iOS-10-Sampler";
-			};
-			name = Debug;
-		};
-		8AB430821D7A6B4A00A3BD98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
-				INFOPLIST_FILE = "iOS-10-SamplerTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-SamplerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-10-Sampler.app/iOS-10-Sampler";
-			};
-			name = Release;
-		};
-		8AB430841D7A6B4A00A3BD98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
-				INFOPLIST_FILE = "iOS-10-SamplerUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-SamplerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "iOS-10-Sampler";
-			};
-			name = Debug;
-		};
-		8AB430851D7A6B4A00A3BD98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9Z86A4AWDE;
-				INFOPLIST_FILE = "iOS-10-SamplerUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shu223.iOS-10-SamplerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "iOS-10-Sampler";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A1CC3941D7AC22E00562709 /* Build configuration list for PBXNativeTarget "SamplerStickerPack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A1CC3951D7AC22E00562709 /* Debug */,
-				8A1CC3961D7AC22E00562709 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8AB430501D7A6B4900A3BD98 /* Build configuration list for PBXProject "iOS-10-Sampler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1897,24 +1629,6 @@
 			buildConfigurations = (
 				8AB4307E1D7A6B4A00A3BD98 /* Debug */,
 				8AB4307F1D7A6B4A00A3BD98 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8AB430801D7A6B4A00A3BD98 /* Build configuration list for PBXNativeTarget "iOS-10-SamplerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8AB430811D7A6B4A00A3BD98 /* Debug */,
-				8AB430821D7A6B4A00A3BD98 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8AB430831D7A6B4A00A3BD98 /* Build configuration list for PBXNativeTarget "iOS-10-SamplerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8AB430841D7A6B4A00A3BD98 /* Debug */,
-				8AB430851D7A6B4A00A3BD98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
